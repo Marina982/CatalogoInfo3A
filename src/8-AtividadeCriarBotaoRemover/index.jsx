@@ -75,7 +75,8 @@ export default function Home() {
 
 return (
     <div>
-         <h1>Jogos</h1>
+      <header title={"Jogos"}/>
+         
 
 
          {
