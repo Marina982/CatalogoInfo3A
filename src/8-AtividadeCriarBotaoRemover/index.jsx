@@ -39,6 +39,9 @@
 // No conteúdo do botão, coloque o texto "Remover".
 
 import { useState } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 
 export default function Home() {
 
@@ -75,7 +78,8 @@ export default function Home() {
 
 return (
     <div>
-      <header title={"Jogos"}/>
+      
+      <Header title={"Jogos"}/>
          
 
 
@@ -95,8 +99,11 @@ return (
               <button onClick={()=> removerItemPedidos(jogos.id)}>Remover</button>
             </div>    )
         }
-    
+
+
+    <Footer desenvolvedor={"Desenvolvedor"}/>
     </div>
+    
     );
 }
 

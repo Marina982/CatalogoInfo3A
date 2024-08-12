@@ -42,8 +42,8 @@ export default function Home() {
     let remover = false
     let listaAux = listaPedidosJogos.filter((Jogos)=>{
         if (remover == false){
-            if(jogos.id !== id){
-                return jogos
+            if(Jogos.id !== id){
+                return Jogos
             }else{
                 remover = true
                 return null
